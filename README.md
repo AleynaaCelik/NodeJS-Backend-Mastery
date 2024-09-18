@@ -28,14 +28,32 @@ Proje Yapısı
 Bu Express.js projesinin dosya yapısı aşağıdaki gibidir:
 
 ├── app.js               # Uygulama giriş noktası
+
+
 ├── /bin
+
+
 │   └── www              # Sunucunun başlatıldığı dosya
+
+
 ├── /routes              # Uygulama yönlendirme (routes) dosyaları
+
+
 │   ├── index.js         # Ana route dosyası
+
+
 │   └── users.js         # Kullanıcılar için route dosyası
+
+
 ├── /public              # Statik dosyalar (CSS, JavaScript, Resimler)
+
+
 ├── /views               # Görüntü dosyaları (EJS, Pug gibi)
+
+
 ├── /node_modules        # Bağımlılıklar
+
+
 └── package.json         # Proje bağımlılıkları ve betikleri
 
 
