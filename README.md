@@ -58,6 +58,8 @@ Bu Express.js projesinin dosya yapısı aşağıdaki gibidir:
 
 
 Ana Dosyalar:
+
+
 app.js: Uygulamanın temel ayarlarının yapıldığı dosyadır. Middleware'ler ve route'lar burada tanımlanır.
 
 
