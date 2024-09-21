@@ -1,9 +1,9 @@
 const mongoose=require("mongoose");
 
 const schema=mongoose.Schema({
-    email:String,
-    password:String,
-    is_active:Boolean,
+    email:{type:String,required:true},
+    password:{type:String,required:true},
+    is_active:{type:Boolean,default:true},
     first_name:String,
     last_name:String,
     phone_number:String
